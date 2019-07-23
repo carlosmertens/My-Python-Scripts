@@ -13,5 +13,7 @@ Collection of script, codes, functions and others
 
 - Storage numerical and strings values
 - Combine variables and `operator precedence` in arithmetic
-- String slicing and formatting
+- String slicing
 - Serching in a string with `in` operator
+- String Formatting
+- Replacing fields
