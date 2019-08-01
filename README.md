@@ -17,3 +17,9 @@ Collection of script, codes, functions and others
 - Serching in a string with `in` operator
 - String Formatting
 - Replacing fields
+
+## Flow-Control
+
+**_test_conditions.py_**
+
+- If, else and elif
