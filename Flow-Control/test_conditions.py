@@ -1,14 +1,20 @@
-""" Test Conditions """
+""" Test Conditions 
+if, else and elif"""
 
-# If, else statements
+# Write a small program to ask for a name and an age.
+# When both values have been entered, check if the person
+# is the right age to go on an 18-30 holiday (they must be
+# over 18 and under 31).
+# If they are, welcome them to the holiday, otherwise print
+# a (polite) message refusing them entry.
 
 name = input("Hi, what is your name? ")
 age = int(input("How old are you, {}? ".format(name)))
 
-if age >= 18:
-    print("{} is old enogh to buy beers".format(name))
+if age >= 18 and age <= 30:
+    print("Welcome {} to a wonderful holidays!".format(name))
 else:
-    print("{} can't buy beers. Come back in {} year(s)".format(name, 18 - age))
+    print("Sorry {}!. Come back in {} year(s)".format(name, 18 - age))
 
 print("*" * 20)
 
